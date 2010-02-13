@@ -42,14 +42,13 @@ require 'lighthouse'
 ###
 
 # Lighthouse Account Name -- NOT your username!
-Lighthouse.account = 'j-k'
+Lighthouse.account = ''
 # Lighthouse API token
-Lighthouse.token = 'c3cf54610c4a780afc52128931c674e99e888abc'
+Lighthouse.token = ''
 
 
 # redmine project identifier => lighthouse project id
 PROJECTS = {
-  'aaf' => 45560
 }
 
 class RmTicketImporter
