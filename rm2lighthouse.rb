@@ -2,11 +2,13 @@
 # Author: Jens Krämer <jk@jkraemer.net>
 #
 
-# usage:
-# place this file into your redmine applicatiojn directory and run via script runner:
-#
+# install the lighthouse-api gem and place this file into 
+# your redmine application directory, and edit the marked
+# variables to match your setup.
+# 
+# Then run via script runner:
+# 
 # RAILS_ENV=production script/runner rm2lighthouse.rb
-
 
 # Copyright (c) 2010 Jens Krämer
 #
